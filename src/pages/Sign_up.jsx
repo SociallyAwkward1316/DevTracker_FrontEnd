@@ -50,7 +50,7 @@ function SignUp() {
 
       if (res.ok && data.success) {
         // 2️⃣ Log the user in automatically
-        const loginRes = await fetch(`${BASEURL}api/login/`, {
+        const loginRes = await fetch(`${BASEURL}/api/login/`, {
           method: "POST",
           credentials: "include",
           headers: { "Content-Type": "application/json" },
