@@ -34,7 +34,7 @@ function SignUp() {
 
     try {
       // 1️⃣ Register the user
-      const res = await fetch(`${BASEURL}api/register/`, {
+      const res = await fetch(`${BASEURL}/api/register/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
