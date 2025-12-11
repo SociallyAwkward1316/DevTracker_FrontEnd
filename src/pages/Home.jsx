@@ -27,7 +27,7 @@ export default function Home() {
   useEffect(() => {
     async function loadProjects() {
       try {
-        const res = await fetch(`${BASEURL}/api/project_list/`, {
+        const res = await fetch(`${BASEURL}api/project_list/`, {
           credentials: "include",
         });
 
@@ -49,7 +49,7 @@ export default function Home() {
     if (!newTitle.trim()) return;
 
     try {
-      const res = await fetch(`${BASEURL}/api/create_project/`, {
+      const res = await fetch(`${BASEURL}api/create_project/`, {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
@@ -76,7 +76,7 @@ export default function Home() {
 
   async function deleteProject(id) {
     try {
-      const res = await fetch(`${BASEURL}/api/project/${id}/delete/`, {
+      const res = await fetch(`${BASEURL}api/project/${id}/delete/`, {
         method: "DELETE",
         credentials: "include",
       });

@@ -34,7 +34,7 @@ function SignUp() {
 
     try {
       // 1️⃣ Register the user
-      const res = await fetch(`${BASEURL}/api/register/`, {
+      const res = await fetch(`${BASEURL}api/register/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -50,7 +50,7 @@ function SignUp() {
 
       if (res.ok && data.success) {
         // 2️⃣ Log the user in automatically
-        const loginRes = await fetch(`${BASEURL}/api/login/`, {
+        const loginRes = await fetch(`${BASEURL}api/login/`, {
           method: "POST",
           credentials: "include",
           headers: { "Content-Type": "application/json" },

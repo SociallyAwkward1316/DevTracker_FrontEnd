@@ -29,7 +29,7 @@ export default function ProjectDetail() {
   async function loadProject() {
     setLoading(true);
     try {
-      const res = await fetch(`${BASEURL}/api/project/${id}/`, {
+      const res = await fetch(`${BASEURL}api/project/${id}/`, {
         credentials: "include",
       });
       const data = await res.json();
@@ -49,7 +49,7 @@ export default function ProjectDetail() {
     if (!categoryTitle.trim()) return;
 
     try {
-      const res = await fetch(`${BASEURL}/api/project/${id}/create_category/`, {
+      const res = await fetch(`${BASEURL}api/project/${id}/create_category/`, {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
@@ -71,7 +71,7 @@ export default function ProjectDetail() {
 
   async function deleteCategory(categoryId) {
     try {
-      await fetch(`${BASEURL}/api/project/category/${categoryId}/delete/`, {
+      await fetch(`${BASEURL}api/project/category/${categoryId}/delete/`, {
         method: "DELETE",
         credentials: "include",
       });
@@ -92,7 +92,7 @@ export default function ProjectDetail() {
     if (!title?.trim()) return;
 
     try {
-      const res = await fetch(`${BASEURL}/api/project/category/${categoryId}/create_task/`, {
+      const res = await fetch(`${BASEURL}api/project/category/${categoryId}/create_task/`, {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
@@ -117,7 +117,7 @@ export default function ProjectDetail() {
 
   async function toggleTask(taskId, categoryId) {
     try {
-      await fetch(`${BASEURL}/api/project/task/${taskId}/toggle/`, {
+      await fetch(`${BASEURL}api/project/task/${taskId}/toggle/`, {
         method: "PATCH",
         credentials: "include",
       });
@@ -143,7 +143,7 @@ export default function ProjectDetail() {
 
   async function deleteTask(taskId, categoryId) {
     try {
-      await fetch(`${BASEURL}/api/project/task/${taskId}/delete/`, {
+      await fetch(`${BASEURL}api/project/task/${taskId}/delete/`, {
         method: "DELETE",
         credentials: "include",
       });

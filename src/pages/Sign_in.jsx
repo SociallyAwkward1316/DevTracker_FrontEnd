@@ -23,7 +23,7 @@ function Login({ onSubmit }) {
     setLoading(true);
 
     try {
-      const res = await fetch(`${BASEURL}/api/login/`, {
+      const res = await fetch(`${BASEURL}api/login/`, {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
