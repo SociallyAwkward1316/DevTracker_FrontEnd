@@ -1,3 +1,3 @@
-    const BASEURL = "https://dev-tracker-backend-qo24.onrender.com/"
+    const BASEURL = "https://api.devtracker.dev/"
 
 export default BASEURL
