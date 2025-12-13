@@ -1,6 +1,6 @@
 # DevTrack Frontend TO visit devtrack just go to [Devtrack](https://devtracker.dev)
 
-Frontend for **DevTrackJR**, a shift and production tracking app built with **React** and **Vite**. Connects to the backend API for authentication and production management.
+Frontend for **DevTrack**, a shift and production tracking app built with **React** and **Vite**. Connects to the backend API for authentication and production management.
 
 ---
 
