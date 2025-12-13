@@ -44,3 +44,4 @@ Frontend for **DevTrack**, a shift and production tracking application built wit
 
 DevTrack was built to practice and demonstrate full-stack development skills, with a focus on secure authentication, backend-driven logic, and real-world deployment.
 
+Built by me(Alexis Fuenmayor) a backend-focused developer with hands-on experience deploying and maintaining real production Django applications.
