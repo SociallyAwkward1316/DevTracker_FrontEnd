@@ -21,7 +21,7 @@ This project allows users to create projects, organize them into categories, and
 ## Tech Stack
 
 ### Backend  
-➡️ **Backend Repository:**  
+**Backend Repository:**  
 [DevTrack Backend](https://github.com/SociallyAwkward1316/Dev_Tracker_Backend)
 
 - Python  
