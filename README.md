@@ -2,7 +2,9 @@
 
 **Live App:** [https://devtracker.dev](https://devtracker.dev)
 
-Frontend for **DevTrack**, a shift and production tracking application built with **React** and **Vite**. The frontend communicates with a Django REST API backend for authentication and production data management.
+Frontend for **DevTrack**, A full-stack project management application built with Django REST Framework and React, focused on backend architecture, authentication, and real-world data relationships.
+
+This project allows users to create projects, organize them into categories, and manage tasks with authentication-protected access.
 
 ---
 
