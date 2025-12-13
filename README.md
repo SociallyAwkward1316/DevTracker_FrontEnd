@@ -15,7 +15,7 @@ Frontend for **DevTrack**, a shift and production tracking app built with **Reac
 
 ## Tech Stack
 
-### Backend(Backend is in Another Repository)
+### Backend[(Backend is in Another Repository)](https://github.com/SociallyAwkward1316/Dev_Tracker_Backend)
 
 - Python
 - Django
